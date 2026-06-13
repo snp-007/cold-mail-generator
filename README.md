@@ -8,7 +8,11 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-green)
 ![GitHub Stars](https://img.shields.io/github/stars/snp-007/cold-mail-generator?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/snp-007/cold-mail-generator?style=social)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success)](YOUR_STREAMLIT_URL)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://cold-mail-generator-snp.streamlit.app/)
+
+<br>
+
+<a href="https://cold-mail-generator-snp.streamlit.app/">Try the App</a>
 
 An AI-powered Cold Email Generator that helps software consulting and service companies automate outreach to potential clients based on job postings.
 

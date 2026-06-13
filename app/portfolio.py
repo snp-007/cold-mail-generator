@@ -1,5 +1,6 @@
 import pandas as pd
 import chromadb
+from chromadb.config import Settings
 import uuid
 
 
@@ -9,7 +10,8 @@ class Portfolio:
         self.data = pd.read_csv(file_path)
 
         self.chroma_client = chromadb.PersistentClient(
-            path="vectorstore"
+            path="vectorstore",
+            settings=Settings(anonymized_telemetry=False)
         )
         self.collection = self.chroma_client.get_or_create_collection(
             name="portfolio"
